@@ -45,7 +45,7 @@ module Flann
     #
     # * https://github.com/mariusmuja/flann/tree/master/src/cpp/flann/algorithms
     #
-    def initialize index_dataset = nil, dtype: :float64, parameters: Flann::Parameters::DEFAULT
+    def initialize index_dataset, dtype: :float64, parameters: Flann::Parameters::DEFAULT
       @dataset        = index_dataset
       #require 'pry'
       #binding.pry if @dataset.nil?

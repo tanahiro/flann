@@ -5,6 +5,8 @@ tmp
 src/matlab/*.dat
 src/matlab/test.m
 src/python/setup.py
+src/ruby/pkg
+src/ruby/Gemfile.lock
 test/*.h5
 test/*.pkl
 test/*.idx

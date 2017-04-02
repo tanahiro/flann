@@ -28,8 +28,8 @@
 module Flann
   module VERSION
     MAJOR = 1
-    MINOR = 8
-    TINY  = 4
+    MINOR = 9
+    TINY  = 1
     MINISCULE = 2
 
     STRING = [MAJOR, MINOR, TINY, MINISCULE].compact.join('.')
